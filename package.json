@@ -1,0 +1,16 @@
+{
+  "name": "webpster",
+  "version": "1.0.0",
+  "main": "webpster.js",
+  "scripts": {
+    "convert": "node webpster.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "keywords": ["webp", "converter", "image", "jpg", "png"],
+  "author": "Alex Shnurkov",
+  "license": "ISC",
+  "description": "A simple tool to convert JPG and PNG images to WebP format."
+}
